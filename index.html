@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="jQuery2.css">
+    <title>Movies</title>
+</head>
+
+<body>
+
+    <header class="sticky-top bg-dark">
+        <nav class="navbar bg-body-light">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light">My Movies</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" id="search-input" type="search" placeholder="Search"
+                        aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="slider">
+            <div><img src="Images/movie1.jpg" alt="Poster"></div>
+            <div><img src="Images/movie2.jpg" alt="Poster"></div>
+            <div><img src="Images/movie3.webp" alt="Poster"></div>
+            <div><img src="Images/movie4.jpg" alt="Poster"></div>
+            <div><img src="Images/movie5.webp" alt="Poster"></div>
+        </div>
+    </section>
+    <main>
+        <div class="container py-4">
+            <h1 class="mb-4 text-center text-light">Popular Movies</h1>
+            <div class="row movie-grid">
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn"><i class="bi bi-arrow-up-square-fill"></i></button>
+    </main>
+
+
+
+
+
+
+    <script src="../jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="jQuery2.js"></script>
+</body>
+
+</html>

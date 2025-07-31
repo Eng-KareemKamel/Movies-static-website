@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+}
+
+.slider img {
+    height: 650px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.card {
+    background-color: #222;
+    color: white;
+    border: 2px solid white;
+}
+
+.card:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 26px;
+}
